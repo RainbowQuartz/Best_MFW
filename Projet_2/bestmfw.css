@@ -1,0 +1,116 @@
+body{
+  background-color: #fefefe;
+}
+
+@@font-face {
+  font-family: 'Open Sans';
+  src:  url('OpenSans-Regular-Webfont.woff') format('woff'),
+        url('OpenSans-Regular.ttf') format('ttf');
+
+}
+
+body{
+  color: #454545;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: justify;
+  margin: 2em auto;
+  max-width: 800px;
+  padding: 1em;
+  font-style: 'Open Sans', Arial, serif;
+}
+
+p{
+  color: #454545;
+}
+
+.mfw{
+  color: #16a085;
+}
+
+.wrong{
+    color: #c0392b;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#shitty_blue{
+  color: #00e;
+  cursor: not-allowed;
+}
+
+#violetish{
+  color: #551a8b;
+  cursor: not-allowed;
+}
+
+.a{
+  color: #07a;
+}
+
+ul li img{
+  height: 1em;
+}
+
+.foufou{
+  color: #444;
+  font-weight: 700;
+}
+
+.fifou{
+  color: #454545;
+  font-weight: 700;
+}
+
+.caption{
+  font-size: .7em;
+}
+
+.fancypositionning .pictureleft{
+  float: left;
+  width: 40%;
+  overflow: hidden;
+  margin-right: 1em;
+}
+
+.fancypositionning::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.chat{
+  width: 100%;
+}
+
+a.kopimi{
+  display: block;
+  align-items: center;
+}
+
+a.kopimi img.kopimi{
+  height: 2em;
+}
+
+blockquote{
+  color: #456;
+  margin-left: 0;
+  margin top: 2em;
+  margin-bottom: 2em;
+}
+blockquote span{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+blockquote author{
+  display: block;
+  clear: both;
+  font-size: .6em;
+  margin-left: 2.4rem;
+  font-style: oblique;
+}
+
+.psychedelic {
+  background-color: magenta;
+}
